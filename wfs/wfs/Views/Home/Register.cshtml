@@ -1,0 +1,28 @@
+﻿@Html.Partial("~/Views/Shared/_SlimHeader.cshtml")
+
+<!-- =========================
+   WORKS SECTION
+============================== -->
+<section class="works" id="works">
+	<div class="container">
+
+		
+		<div class="row projects">
+			<div id="loader">
+				<div class="loader-icon"></div>
+			</div>
+			<div class="col-md-12">
+				<h2>put stuff here</h2>
+
+				@for (int idx = 1; idx < 360; idx++)
+				{
+					<div>
+						<i style="font-size: 26pt;" class="icon-fontawesome-webfont-@idx"></i> #@idx
+					</div>
+				}
+			</div>
+
+		</div>
+
+	</div> <!-- / END CONTAINER -->
+</section> <!-- / END WORKS SECTION -->
